@@ -19,15 +19,8 @@ public class UserInfo {
 	public void setUserEmail(String userEmail) {
 		this.userEmail = userEmail;
 	}
-	public String getUserPassword() {
-		return userPassword;
-	}
-	public void setUserPassword(String userPassword) {
-		this.userPassword = userPassword;
-	}
 	private String userName;
 	private String userId;
 	private String userEmail;
 	private String userPassword;
-	
 }
